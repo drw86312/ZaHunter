@@ -21,6 +21,10 @@
 		0E7CBF0F1937A9F7008D16C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7CBEF11937A9F7008D16C4 /* UIKit.framework */; };
 		0E7CBF171937A9F8008D16C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E7CBF151937A9F8008D16C4 /* InfoPlist.strings */; };
 		0E7CBF191937A9F8008D16C4 /* ZaHunterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7CBF181937A9F8008D16C4 /* ZaHunterTests.m */; };
+		0E7CBF231937AAA3008D16C4 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7CBF221937AAA3008D16C4 /* CheckMate.framework */; };
+		0E7CBF251937ACF0008D16C4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7CBF241937ACF0008D16C4 /* CoreLocation.framework */; };
+		0E7CBF271937ACF9008D16C4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7CBF261937ACF9008D16C4 /* MapKit.framework */; };
+		0E8EAEAF1937E77F00247B50 /* PizzaPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EAEAE1937E77F00247B50 /* PizzaPlace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,11 @@
 		0E7CBF141937A9F7008D16C4 /* ZaHunterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZaHunterTests-Info.plist"; sourceTree = "<group>"; };
 		0E7CBF161937A9F8008D16C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E7CBF181937A9F8008D16C4 /* ZaHunterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaHunterTests.m; sourceTree = "<group>"; };
+		0E7CBF221937AAA3008D16C4 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../CheckMate.framework; sourceTree = "<group>"; };
+		0E7CBF241937ACF0008D16C4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0E7CBF261937ACF9008D16C4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0E8EAEAD1937E77F00247B50 /* PizzaPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PizzaPlace.h; path = ../PizzaPlace.h; sourceTree = "<group>"; };
+		0E8EAEAE1937E77F00247B50 /* PizzaPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PizzaPlace.m; path = ../PizzaPlace.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E7CBF271937ACF9008D16C4 /* MapKit.framework in Frameworks */,
+				0E7CBF251937ACF0008D16C4 /* CoreLocation.framework in Frameworks */,
+				0E7CBF231937AAA3008D16C4 /* CheckMate.framework in Frameworks */,
 				0E7CBEF01937A9F7008D16C4 /* CoreGraphics.framework in Frameworks */,
 				0E7CBEF21937A9F7008D16C4 /* UIKit.framework in Frameworks */,
 				0E7CBEEE1937A9F7008D16C4 /* Foundation.framework in Frameworks */,
@@ -101,6 +113,9 @@
 		0E7CBEEC1937A9F7008D16C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E7CBF261937ACF9008D16C4 /* MapKit.framework */,
+				0E7CBF241937ACF0008D16C4 /* CoreLocation.framework */,
+				0E7CBF221937AAA3008D16C4 /* CheckMate.framework */,
 				0E7CBEED1937A9F7008D16C4 /* Foundation.framework */,
 				0E7CBEEF1937A9F7008D16C4 /* CoreGraphics.framework */,
 				0E7CBEF11937A9F7008D16C4 /* UIKit.framework */,
@@ -115,6 +130,8 @@
 				0E7CBEFC1937A9F7008D16C4 /* AppDelegate.h */,
 				0E7CBEFD1937A9F7008D16C4 /* AppDelegate.m */,
 				0E7CBEFF1937A9F7008D16C4 /* Main.storyboard */,
+				0E8EAEAD1937E77F00247B50 /* PizzaPlace.h */,
+				0E8EAEAE1937E77F00247B50 /* PizzaPlace.m */,
 				0E7CBF021937A9F7008D16C4 /* ViewController.h */,
 				0E7CBF031937A9F7008D16C4 /* ViewController.m */,
 				0E7CBF051937A9F7008D16C4 /* Images.xcassets */,
@@ -251,6 +268,7 @@
 			files = (
 				0E7CBF041937A9F7008D16C4 /* ViewController.m in Sources */,
 				0E7CBEFE1937A9F7008D16C4 /* AppDelegate.m in Sources */,
+				0E8EAEAF1937E77F00247B50 /* PizzaPlace.m in Sources */,
 				0E7CBEFA1937A9F7008D16C4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +394,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/davidwarner/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZaHunter/ZaHunter-Prefix.pch";
 				INFOPLIST_FILE = "ZaHunter/ZaHunter-Info.plist";
@@ -389,6 +411,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/davidwarner/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZaHunter/ZaHunter-Prefix.pch";
 				INFOPLIST_FILE = "ZaHunter/ZaHunter-Info.plist";
@@ -456,6 +482,7 @@
 				0E7CBF1E1937A9F8008D16C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E7CBF1F1937A9F8008D16C4 /* Build configuration list for PBXNativeTarget "ZaHunterTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +491,7 @@
 				0E7CBF211937A9F8008D16C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
